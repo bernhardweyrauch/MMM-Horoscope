@@ -1,0 +1,21 @@
+{
+  "name": "MMM-Horoscope",
+  "version": "0.0.1",
+  "description": "",
+  "main": "MMM-Horoscope.js",
+  "devDependencies": {},
+  "scripts": {},
+  "dependencies": {
+    "node-html-parser": "^1.2.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eouia/MMM-Volume.git"
+  },
+  "author": "Bernhard Weyrauch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eouia/MMM-Volume/issues"
+  },
+  "homepage": "https://github.com/eouia/MMM-Volume/#readme"
+}

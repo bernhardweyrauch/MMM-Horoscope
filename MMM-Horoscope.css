@@ -1,0 +1,35 @@
+/* Styling for MMM-Horoscope module */
+
+div.module.MMM-Horoscope div.MMM-Horoscope-Container {
+  width: 75%;
+	margin: auto;
+	line-height: 22px;
+}
+
+div.module.MMM-Horoscope div.MMM-Horoscope-Container h1.MMM-Horoscope-Title {
+  color: #FFF;
+  border-bottom: 1px solid #d3d3d3;
+  font-size: 26px;
+  line-height: 34px;
+  width: 90%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+div.module.MMM-Horoscope div.MMM-Horoscope-Container div.formatted-text {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  font-size: 20px;
+}
+
+div.module.MMM-Horoscope div.MMM-Horoscope-Container div.formatted-text h3 {
+  margin: 0px;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+div.module.MMM-Horoscope div.MMM-Horoscope-Container div.formatted-text p {
+  margin-top: 5px;
+  margin-bottom: 35px;
+}
