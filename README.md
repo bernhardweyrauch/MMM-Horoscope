@@ -51,9 +51,9 @@ The following properties can be configured:
 
 | Option                     | Description
 | -------------------------- | -----------
-| `title`                | [OPTIONAL]<br>Title of the horoscope.<br>Can be empty and will be hidden then.
-| `sign`                 | [MANDATORY]<br>Valid option of your sign. Following values are allowed: steinbock, wassermann, fische, widder, stier, zwillinge, krebs, loewe, jungfrau, waage, skorpion, schuetze<br><br> **Default value:** `widder`
-| `refreshInterval`                | [OPTIONAL]<br>Refresh interval in seconds.<br><br> **Default value:** `14400` (4 hours)
+| `sign`                 | [MANDATORY]<br>Valid option of your sign. The following values are possible:<br>* steinbock<br>* wassermann<br>* fische<br> widder<br>* stier<br>* zwillinge<br>* krebs<br>* loewe<br>* jungfrau<br>* waage<br>* skorpion<br>* schuetze<br><br> **Default value:** `widder`
+| `title`                | [OPTIONAL]<br>Header/title of the horoscope module (hidden if unset/empty)
+| `refreshInterval`      | [OPTIONAL]<br>Refresh interval in seconds until data is reloaded.<br><br> **Default value:** `14400` (4 hours)
 
 
 ## Update
