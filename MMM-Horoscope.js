@@ -39,10 +39,12 @@ Module.register("MMM-Horoscope", {
   getDom: function() {
     var wrapper = document.createElement("div");
     wrapper.className = "MMM-Horoscope-Container";
-    var title = document.createElement("h1");
-    title.className = "MMM-Horoscope-Title";
-    title.innerHTML = this.config.title;
-    wrapper.appendChild(title);
+    if(this.config.title && this.config.title.length > 0) {
+      var title = document.createElement("h1");
+      title.className = "MMM-Horoscope-Title";
+      title.innerHTML = this.config.title;
+      wrapper.appendChild(title);
+    }
     var container = document.createElement("div");
     if(this.mmmHoroscopeData) {
       container.innerHTML = this.mmmHoroscopeData;
